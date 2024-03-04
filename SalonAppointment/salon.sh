@@ -28,7 +28,6 @@ fi
 
   read SERVICE_ID_SELECTED
 
-#Doenst Pass the test after this, until the !
  if [[ ! $SERVICE_ID_SELECTED =~ ^[0-9]+$ ]]
  then
    MAIN_MENU "Sorry, that is not a valid number! Please, choose again."
@@ -42,7 +41,6 @@ fi
       fi
   fi
 
-# !
 
   echo "What's your phone number?"
   read CUSTOMER_PHONE
